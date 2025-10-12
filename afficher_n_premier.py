@@ -1,9 +1,19 @@
 def estPremier(n):
     if n < 2:
         return False
-    for i in range(2, n):
+    
+    #Equivalent boucle while
+    i = 2
+    while i < n:
         if n % i == 0:
             return False
+        i += 1
+
+    # #Equivalent boucle for
+    # for i in range(2, n):
+    #     if n % i == 0:
+    #         return False
+        
     return True
 
 def afficher_n_premier(n):
@@ -27,4 +37,5 @@ def afficher_n_premier(n):
     #         break
 
 #Test de la fonction
-afficher_n_premier(100)
+n = int(input("Entrez un nombre n pour afficher les n premiers nombres premiers : "))
+afficher_n_premier(n)
