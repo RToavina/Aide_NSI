@@ -38,7 +38,6 @@ while 1:
                 print(f"Vous avez gagné {nombre_parties_gagnées} parties.")
                 print("Merci d'avoir joué !")
                 break
-            
     print("Voulez vous rejouer ? (o/n)")
     reponse = input().strip().lower()
     if reponse == "o":
@@ -48,4 +47,3 @@ while 1:
         print(f"Vous avez gagné {nombre_parties_gagnées} parties.")
         print("Merci d'avoir joué !")
         break
-
