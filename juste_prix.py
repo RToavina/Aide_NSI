@@ -27,7 +27,7 @@ while 1:
             print("C'est moins")
             nombres_essais += 1
         else:
-            print(f"Gagné en {10-nombres_essais} coups")
+            print(f"Gagné en {nombres_essais} coups")
             nombre_parties_gagnées += 1
             print("Voulez vous rejouer ? (o/n)")
             reponse = input().strip().lower()
@@ -42,7 +42,7 @@ while 1:
     reponse = input().strip().lower()
     if reponse == "o":
         nombres_essais = 0
-        nombre_a_deviner = random.randint(1, 100)}
+        nombre_a_deviner = random.randint(1, 100)
     else:
         print(f"Vous avez gagné {nombre_parties_gagnées} parties.")
         print("Merci d'avoir joué !")
