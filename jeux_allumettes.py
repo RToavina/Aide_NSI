@@ -32,6 +32,3 @@ while nombres_allumettes > 0:
             print(f"{cpu} a pris la dernière allumette et perd la partie. {joueur} gagne !")
             break
     tour += 1
-
-
-
