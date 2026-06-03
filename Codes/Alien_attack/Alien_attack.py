@@ -1,4 +1,5 @@
-import pyxel
+#IMPORTTANT source .venv/bin/activate
+import pyxel 
 import random
 
 pyxel.init(128, 128, title="Alien Attack")
