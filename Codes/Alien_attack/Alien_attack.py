@@ -1,4 +1,5 @@
 #IMPORTTANT source .venv/bin/activate
+#           SDL_VIDEODRIVER=x11 python Alien_attack.py
 import pyxel 
 import random
 

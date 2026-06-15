@@ -1,0 +1,33 @@
+===============================================================================
+                       GUIDE DE SURVIE - TERMINAL & PYTHON
+===============================================================================
+
+-------------------------------------------------------------------------------
+1. LA RÈGLE D'OR : ACTIVER L'ENVIRONNEMENT VIRTUEL (.venv)
+-------------------------------------------------------------------------------
+Avant de lancer un code qui utilise un module spécial (comme Pyxel), tu dois
+TOUJOURS activer ton environnement virtuel. Sinon, Python dira :
+❌ "ModuleNotFoundError: No module named 'pyxel'"
+
+👉 Comment faire ?
+   1. Ouvre ton terminal dans le dossier principal (celui qui contient le dossier .venv).
+   2. Tape la commande suivante :
+      source .venv/bin/activate
+   
+   3. Tu sauras que ça a marché car (.venv) apparaîtra au tout début de ta ligne de commande.
+
+-------------------------------------------------------------------------------
+2. NAVIGATION RAPIDE DANS LE TERMINAL
+-------------------------------------------------------------------------------
+• pwd        -> Te dit exactement dans quel dossier tu te trouves actuellement.
+• ls         -> Liste tous les fichiers et sous-dossiers là où tu es.
+• cd Nom     -> Te déplace dans le dossier "Nom".
+• cd ..      -> Te fait remonter d'UN dossier en arrière.
+• cd ../../../ -> Te fait remonter de TROIS dossiers d'un coup (pratique pour revenir à la racine).
+
+-------------------------------------------------------------------------------
+3. TROIS MÉTHODES POUR LANCER UN CODE DEPUIS N'IMPORTE OÙ
+-------------------------------------------------------------------------------
+• Méthode A (Propre) : Tu remontes à la racine (`cd ../../../`), tu actives (`source .venv/bin/activate`), tu redescends dans ton dossier et tu lances ton script normalement.
+• Méthode B (Flash)  : Tu appelles directement le bon exécutable sans bouger de ton dossier : `../../../.venv/bin/python mon_script.py`
+• Méthode C (Auto)   : Tu cliques sur la version de Python tout en bas à droite de VS Code, tu sélectionnes l'interpréteur marqué ('.venv'), et VS Code s'occupera de l'activer tout seul à chaque nouveau terminal.
